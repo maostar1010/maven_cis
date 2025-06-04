@@ -22,6 +22,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
 
 # clear all permissions for GITHUB_TOKEN
 permissions: {}
